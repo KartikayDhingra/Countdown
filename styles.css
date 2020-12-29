@@ -1,0 +1,104 @@
+
+body{
+    overflow: hidden;
+    margin: 0;
+    
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+    height: 100%;
+}
+
+.header{
+    border: none;
+    height: 75vh;
+    width: 100%;
+    background-image: url(./images/bg-stars.svg);
+    background-color: hsl(235, 16%, 14%);
+}
+
+h2{
+    margin-top: 0;
+    padding-top: 0;
+    color: white;
+    
+}
+
+.heading{
+    
+    text-align: center;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    font-size: 14px;
+}
+
+.countdown{
+    
+    height: 180px;
+    width: 700px;
+    position: relative;
+    top: 180px;
+    left: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.box{
+    background-color: hsl(236, 21%, 26%);
+    height: 120px;
+    width: 120px;
+    margin: 20px 30px 5px 10px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.box:hover{
+    background-color: hsl(237, 18%, 59%);
+}
+
+.footer{
+    background-image: url(./images/pattern-hills.svg);
+    background-color: hsl(235, 16%, 14%);
+    height: 25vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.logo-section{
+    width: 200px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.logo{
+    display: inline-block;
+    margin: 30px 5px 20px 30px;
+    
+}
+
+.logo svg:hover path{
+    cursor: pointer;
+    fill: hsl(345, 95%, 68%);
+}
+
+.time{
+    text-align: center;
+    position: relative;
+    width: 15%;
+    height: 12px;
+    color: hsl(237, 18%, 59%);
+    font-size: 12px;
+    margin-left: -5px;
+}
+
+.numbers{
+    font-size: 70px;
+    color: hsl(345, 95%, 68%);
+}
